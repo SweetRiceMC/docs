@@ -21,9 +21,17 @@ export default defineUserConfig({
         favicon: "/images/logo.png",
         sidebar: sidebar,
         navbar: [
+            {
+                text: "主站",
+                link: "https://www.pds.ink/",
+            },
+            {
+                text: "文档",
+                link: "/server",
+            }
         ],
         print: false,
-        pure: false,
+        pure: true,
         repo: "SweetRiceMC/docs",
         docsDir: "docs",
         plugins: {
