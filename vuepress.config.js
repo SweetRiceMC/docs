@@ -28,6 +28,10 @@ export default defineUserConfig({
             {
                 text: "文档",
                 link: "/server",
+            },
+            {
+                text: "附魔图鉴",
+                link: "https://www.pds.ink/e",
             }
         ],
         print: false,
