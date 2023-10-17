@@ -3,7 +3,7 @@ const sidebar = {
         {
             text: "基础",
             children: [
-                "/basic/login.html"
+                "/server/basic/login"
             ]
         }
     ],
