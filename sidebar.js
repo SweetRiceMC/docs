@@ -1,6 +1,10 @@
 const sidebar = {
     "/server": [
         {
+            text: "介绍",
+            link: '/server'
+        },
+        {
             text: "基础",
             children: [
                 "/server/basic/login",
