@@ -30,6 +30,10 @@ export default defineUserConfig({
                 link: "/server",
             },
             {
+                text: "玩家协议",
+                link: "/rules",
+            },
+            {
                 text: "附魔图鉴",
                 link: "https://www.pds.ink/e",
             }

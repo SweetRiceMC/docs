@@ -19,6 +19,10 @@ const sidebar = {
                 "/server/play/cuilian",
                 "/server/play/baptism"
             ]
+        },
+        {
+            text: "玩家协议",
+            link: '/rules'
         }
     ],
 };
