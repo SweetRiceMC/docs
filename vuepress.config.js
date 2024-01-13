@@ -52,7 +52,7 @@ export default defineUserConfig({
         },
         lastUpdated: true,
         breadcrumb: false,
-        pageInfo: true,
+        pageInfo: false,
         nextLinks: false,
         prevLinks: false,
     }),
