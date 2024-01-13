@@ -36,6 +36,10 @@ export default defineUserConfig({
             {
                 text: "附魔图鉴",
                 link: "https://www.pds.ink/e",
+            },
+            {
+                text: "创建/修改页面",
+                link: "/contributing"
             }
         ],
         print: false,
@@ -46,9 +50,9 @@ export default defineUserConfig({
             activeHeaderLinks: true,
             nprogress: true,
         },
-        lastUpdated: false,
-        breadcrumb: false,
-        pageInfo: false,
+        lastUpdated: true,
+        breadcrumb: true,
+        pageInfo: true,
         nextLinks: false,
         prevLinks: false,
     }),
