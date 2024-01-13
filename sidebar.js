@@ -25,6 +25,12 @@ const sidebar = {
             link: '/rules'
         }
     ],
+    "/": [
+        {
+            text: "贡献文档",
+            link: '/contributing'
+        }
+    ]
 };
 
 export default sidebar;
