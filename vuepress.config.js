@@ -51,7 +51,7 @@ export default defineUserConfig({
             nprogress: true,
         },
         lastUpdated: true,
-        breadcrumb: true,
+        breadcrumb: false,
         pageInfo: true,
         nextLinks: false,
         prevLinks: false,
