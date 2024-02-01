@@ -19,7 +19,9 @@ const sidebar = {
                 "/server/play/cuilian",
                 "/server/play/baptism",
                 "/server/play/map",
-                "/server/play/farm"
+                "/server/play/farm",
+                "/server/play/settings",
+                "/server/play/query"
             ]
         },
         {
