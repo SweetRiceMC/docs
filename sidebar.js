@@ -25,6 +25,12 @@ const sidebar = {
             link: '/rules'
         }
     ],
+    "/dev": [
+        {
+            text: "ID列表",
+            link: "/dev/ids"
+        }
+    ],
     "/": [
         {
             text: "贡献文档",
