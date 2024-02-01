@@ -17,7 +17,9 @@ const sidebar = {
             children: [
                 "/server/play/upgrade",
                 "/server/play/cuilian",
-                "/server/play/baptism"
+                "/server/play/baptism",
+                "/server/play/map",
+                "/server/play/farm"
             ]
         },
         {
