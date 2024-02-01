@@ -24,5 +24,5 @@ title: "🔍️查询记录"
 
 CoreProtect 插件有**较重**的学习成本，一般使用菜单提供的查询命令**已足够**日常查小偷、查熊孩子使用，如果有更专业的需求，可使用 /co 命令自助查询。以下是一些资料
 
-官方帮助文档(英文): https://docs.coreprotect.net/commands/
+官方帮助文档(英文): https://docs.coreprotect.net/commands/  
 第三方帮助文档(插件百科): https://mineplugin.org/CoreProtect/

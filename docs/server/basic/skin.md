@@ -12,8 +12,14 @@ title: "👔更换皮肤"
 ```
 /skin set 正版玩家名
 ```
-注意，不要频繁在官网更改皮肤，  
+注意，不要频繁在 Minecraft 官网更改皮肤，  
 服务器正版皮肤缓存时间较长，不一定会实时更改。
+
+如果更改皮肤后，皮肤**迟迟未变动**，可尝试命令 `/uskin` 刷新皮肤  
+或者前往 Minecraft 官网登录，右键复制自己皮肤的`图片地址`，使用以下命令切换皮肤
+```
+/skin url 皮肤图片地址
+```
 
 # 第三方皮肤
 
@@ -50,7 +56,7 @@ https://littleskin.cn/raw/数字ID
 > /skin url https://littleskin.cn/raw/810
 > ```
 
-这个方法适用于**任何**使用 BlessingSkin 搭建的皮肤站。  
+这个方法适用于**任何**使用 BlessingSkin 搭建的皮肤站，比如 [BlessingSkin](https://skin.prinzeugen.net/)、[红石皮肤站](https://mcskin.cn/) 等等。  
 
 # 其他途径
 你可以把皮肤上传到QQ空间或者图床什么的，  
