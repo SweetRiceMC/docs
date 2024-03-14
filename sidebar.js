@@ -10,7 +10,9 @@ const sidebar = {
                 "/server/basic/login",
                 "/server/basic/commands",
                 "/server/basic/skin",
-                "/server/basic/res"
+                "/server/basic/res",
+                "/server/basic/faq",
+                "/server/hardware"
             ]
         },
         {
