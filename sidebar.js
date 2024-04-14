@@ -23,6 +23,7 @@ const sidebar = {
                 "/server/play/baptism",
                 "/server/play/map",
                 "/server/play/farm",
+                "/server/play/brewery",
                 "/server/play/settings",
                 "/server/play/query"
             ]
