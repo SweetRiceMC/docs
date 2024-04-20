@@ -45,9 +45,9 @@ https://s.namemc.com/i/字母数字.png
 ```
 https://littleskin.cn/skinlib/show/数字ID
 ```
-这时，将链接的 `skinlib/show` 改成 `raw`，改好的链接像下面这样
+这时，将链接的 `skinlib/show` 改成 `raw`，然后在末尾加上 `.png`，改好的链接像下面这样
 ```
-https://littleskin.cn/raw/数字ID
+https://littleskin.cn/raw/数字ID.png
 ```
 然后使用命令 `/skin url 改好的链接` 即可更换皮肤。
 
