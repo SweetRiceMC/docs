@@ -53,8 +53,8 @@ export default defineUserConfig({
         lastUpdated: true,
         breadcrumb: false,
         pageInfo: false,
-        nextLinks: false,
-        prevLinks: false,
+        nextLink: false,
+        prevLink: false,
     }),
     theamConfig: {
         search: true,
