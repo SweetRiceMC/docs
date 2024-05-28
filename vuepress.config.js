@@ -56,7 +56,8 @@ export default defineUserConfig({
         nextLink: false,
         prevLink: false,
         search: true,
-        searchMaxSuggestions: 10
+        searchMaxSuggestions: 10,
+        darkmode: "toggle"
     }),
     plugins: [
     ],
