@@ -11,6 +11,7 @@ const sidebar = {
         
         { // start 了解甜米
             text: "了解甜米",
+            collapsible: true,
             children: [
                 '/server',
                 '/server/history',
