@@ -2,10 +2,8 @@
 title: "⚙️配置公开"
 ---
 
-月租: `￥900`
-
 | 项目 | 值 |
 | --- | --- |
-| CPU | AMD Ryzen 9 5900X |
-| 内存 | DDR4 64GB |
-| 硬盘大小 | 1TB |
+| CPU | i9-14900K |
+| 内存 | DDR4 128GB |
+| 硬盘 | Intel SSDPELKX010T8 |

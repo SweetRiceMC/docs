@@ -56,6 +56,10 @@ export default defineUserConfig({
         nextLinks: false,
         prevLinks: false,
     }),
+    theamConfig: {
+        search: true,
+        searchMaxSuggestions: 10
+    },
     plugins: [
     ],
     bundler: viteBundler({
