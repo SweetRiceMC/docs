@@ -1,5 +1,5 @@
 const sidebar = {
-    "/server": [
+    "/": [
         {
             text: "玩家协议/服务器规则",
             link: '/rules'
@@ -261,17 +261,15 @@ const sidebar = {
 
         '/server/update_logs',
         '/server/guide',
+        {
+            text: "贡献文档",
+            link: '/contributing'
+        }
     ],
     "/dev": [
         {
             text: "ID列表",
             link: "/dev/ids"
-        }
-    ],
-    "/": [
-        {
-            text: "贡献文档",
-            link: '/contributing'
         }
     ]
 };

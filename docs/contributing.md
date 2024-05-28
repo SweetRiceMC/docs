@@ -20,7 +20,7 @@ title: 贡献文档
 
 如果你不会操作，也可以将需要提交的文章发送到邮箱 mrxiaom@qq.com，或者发送到 Issues。
 
-文章均放置在 [docs](docs) 文件夹中，添加文章后请顺手将文章添加到 [sidebar.js](sidebar.js)。
+文章均放置在 [docs](https://github.com/SweetRiceMC/docs/tree/main/docs) 文件夹中，添加文章后请顺手将文章添加到 [sidebar.js](https://github.com/SweetRiceMC/docs/blob/main/sidebar.js)。
 
 # 可能有用的资料
 
