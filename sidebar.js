@@ -43,7 +43,7 @@ const sidebar = {
             collapsible: true,
             prefix: '/server/menu/',
             children: [
-                ['', '(概述)'], // README.md
+                '', // README.md
                 'pets',
 
                 { // start 传送/世界介绍
@@ -51,7 +51,7 @@ const sidebar = {
                     collapsible: true,
                     prefix: 'worlds/',
                     children: [
-                        ['', '(概述)'], // README.md
+                        '', // README.md
                         'resource',
                         'warp',
                         'living',
@@ -67,7 +67,7 @@ const sidebar = {
                     collapsible: true,
                     prefix: 'shop/',
                     children: [
-                        ['', '(概述)'], // README.md
+                        '', // README.md
                         'global',
                         'vanilla',
                         'furniture',
@@ -86,14 +86,14 @@ const sidebar = {
                     collapsible: true,
                     prefix: 'rpg/',
                     children: [
-                        ['', '(概述)'], // README.md
+                        '', // README.md
 
                         { // start 试炼之门
                             text: "👾 试炼之门",
                             collapsible: true,
                             prefix: 'train/',
                             children: [
-                                ['', '(概述)'], // README.md
+                                '', // README.md
                                 'items',
                                 '1-1',
                                 '1-2',
@@ -110,7 +110,7 @@ const sidebar = {
                             collapsible: true,
                             prefix: 'events/',
                             children: [
-                                ['', '(概述)'], // README.md
+                                '', // README.md
                             ]
                         }, // end 活动副本
 
@@ -125,7 +125,7 @@ const sidebar = {
                     collapsible: true,
                     prefix: 'daily/',
                     children: [
-                        ['', '(概述)'], // README.md
+                        '', // README.md
                         'online',
                         'tasks',
                         'sign',
@@ -138,7 +138,7 @@ const sidebar = {
                     collapsible: true,
                     prefix: 'func/',
                     children: [
-                        ['', '(概述)'], // README.md
+                        '', // README.md
                         'settings'
                     ]
                 }, // end 常用功能
@@ -160,7 +160,7 @@ const sidebar = {
             collapsible: true,
             prefix: '/server/rpg/',
             children: [
-                ['', '(概述)'], // README.md
+                '', // README.md
                 "cuilian",
 
                 { // start 锻造系统
@@ -168,21 +168,21 @@ const sidebar = {
                     collapsible: true,
                     prefix: "table/",
                     children: [
-                        ['', '(概述)'], // README.md
+                        '', // README.md
 
                         { // start 锻造
                             text: "🔨 锻造",
                             collapsible: true,
                             prefix: "forge/",
                             children: [
-                                ['', '(概述)'], // README.md
+                                '', // README.md
 
                                 { // start 升级材料
                                     text: "💫 升级材料",
                                     collapsible: true,
                                     prefix: "upgrade/",
                                     children: [
-                                        ['', '(概述)'], // README.md
+                                        '', // README.md
                                         "初级升级石",
                                         "中级升级石",
                                         "高级升级石",
@@ -199,7 +199,7 @@ const sidebar = {
                                     collapsible: true,
                                     prefix: "keys/",
                                     children: [
-                                        ['', '(概述)'], // README.md
+                                        '', // README.md
                                         "深层探索钥匙",
                                         "无限钥匙",
                                         "幻兽契约",
@@ -212,7 +212,7 @@ const sidebar = {
                                     collapsible: true,
                                     prefix: "material/",
                                     children: [
-                                        ['', '(概述)'], // README.md
+                                        '', // README.md
                                         "普通强化锤",
                                         "锻造铁板",
                                         "不凡粘液锭",
@@ -233,7 +233,7 @@ const sidebar = {
                                     collapsible: true,
                                     prefix: "weapon/",
                                     children: [
-                                        ['', '(概述)'], // README.md
+                                        '', // README.md
                                         "坠陨之弓1"
                                     ]
                                 }, // end 武器/工具
@@ -243,7 +243,7 @@ const sidebar = {
                                     collapsible: true,
                                     prefix: "armor/",
                                     children: [
-                                        ['', '(概述)'], // README.md
+                                        '', // README.md
                                         "t0-1",
                                         "t1-1",
                                         "t2-1",
