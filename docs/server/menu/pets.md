@@ -45,5 +45,5 @@ title: "🐱幻兽"
 
 ## 幻兽宝箱物品表
 
-| ![监守者幻兽](https://pic.imgdb.cn/item/66577c76d9c307b7e9b4d3a5.webp) 监守者幻兽 | ![凋灵幻兽](https://pic.imgdb.cn/item/66577c76d9c307b7e9b4d521.webp) 凋灵幻兽 | ![“我的累赘”幻兽](https://pic.imgdb.cn/item/66577d0dd9c307b7e9b52842.webp) “我的累赘”幻兽 | ![青蛙王幻兽](https://pic.imgdb.cn/item/66577c76d9c307b7e9b4d552.webp) 青蛙王幻兽 | ![迅猛龙幻兽](https://pic.imgdb.cn/item/66577c77d9c307b7e9b4d60f.webp) 迅猛龙幻兽 |
+| ![监守者幻兽](https://pic.imgdb.cn/item/66577c76d9c307b7e9b4d3a5.webp)<br>监守者幻兽 | ![凋灵幻兽](https://pic.imgdb.cn/item/66577c76d9c307b7e9b4d521.webp)<br>凋灵幻兽 | ![“我的累赘”幻兽](https://pic.imgdb.cn/item/66577d0dd9c307b7e9b52842.webp)<br>“我的累赘”幻兽 | ![青蛙王幻兽](https://pic.imgdb.cn/item/66577c76d9c307b7e9b4d552.webp)<br>青蛙王幻兽 | ![迅猛龙幻兽](https://pic.imgdb.cn/item/66577c77d9c307b7e9b4d60f.webp)<br>迅猛龙幻兽 |
 |---|---|---|---|---|
