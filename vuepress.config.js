@@ -49,6 +49,14 @@ export default defineUserConfig({
         plugins: {
             activeHeaderLinks: true,
             nprogress: true,
+            mdEnhance: {
+                attrs: true,
+                tabs: true,
+                codetabs: true,
+                sub: true,
+                sup: true,
+                mark: true,
+            },
         },
         lastUpdated: true,
         breadcrumb: false,
