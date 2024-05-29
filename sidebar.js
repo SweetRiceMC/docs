@@ -10,7 +10,7 @@ const sidebar = {
         },
         
         { // start 了解甜米
-            text: "了解甜米",
+            text: "📌了解甜米",
             collapsible: true,
             children: [
                 '/server',
@@ -21,7 +21,7 @@ const sidebar = {
         }, // end 了解甜米
 
         { // start 初入甜米
-            text: "初入甜米",
+            text: "🔆初入甜米",
             collapsible: true,
             children: [
                 "/server/basic/newbie",
@@ -38,7 +38,7 @@ const sidebar = {
         }, // end 初入甜米
 
         { // start 菜单
-            text: "菜单",
+            text: "🛄菜单",
             collapsible: true,
             link: '/server/menu',
             children: [
@@ -135,7 +135,7 @@ const sidebar = {
         }, // end 菜单
 
         {
-            text: "高级附魔",
+            text: "📒高级附魔",
             collapsible: true,
             children: [
                 "/server/enchantment/baptism",
@@ -143,25 +143,25 @@ const sidebar = {
         },
 
         { // start RPG玩法介绍
-            text: "RPG玩法介绍",
+            text: "🗡RPG玩法介绍",
             collapsible: true,
             children: [
                 "/server/rpg/cuilian",
 
                 { // start 锻造系统
-                    text: "锻造系统",
+                    text: "🕋锻造系统",
                     collapsible: true,
                     link: "/server/rpg/table",
                     children: [
 
                         { // start 锻造
-                            text: "锻造",
+                            text: "🔨锻造",
                             collapsible: true,
                             link: "/server/rpg/table/forge",
                             children: [
 
                                 { // start 升级材料
-                                    text: "升级材料",
+                                    text: "💫升级材料",
                                     collapsible: true,
                                     link: "/server/rpg/table/forge/upgrade",
                                     children: [
@@ -177,7 +177,7 @@ const sidebar = {
                                 }, // end 升级材料
 
                                 { // start 宝箱钥匙
-                                    text: "宝箱钥匙",
+                                    text: "🗝宝箱钥匙",
                                     collapsible: true,
                                     link: "/server/rpg/table/forge/keys",
                                     children: [
@@ -189,7 +189,7 @@ const sidebar = {
                                 }, // end 宝箱钥匙
 
                                 { // start 材料
-                                    text: "材料",
+                                    text: "📦材料",
                                     collapsible: true,
                                     link: "/server/rpg/table/forge/material",
                                     children: [
@@ -209,7 +209,7 @@ const sidebar = {
                                 }, // end 材料
 
                                 { // start 武器/工具
-                                    text: "武器/工具",
+                                    text: "⚔武器/工具",
                                     collapsible: true,
                                     link: "/server/rpg/table/forge/weapon",
                                     children: [
@@ -218,7 +218,7 @@ const sidebar = {
                                 }, // end 武器/工具
 
                                 { // start 防具
-                                    text: "防具",
+                                    text: "🔰防具",
                                     collapsible: true,
                                     link: "/server/rpg/table/forge/armor",
                                     children: [
@@ -241,7 +241,7 @@ const sidebar = {
         }, // end RPG玩法介绍
         
         { // start 游戏内容
-            text: "游戏内容",
+            text: "🕹游戏内容",
             collapsible: true,
             children: [
                 "/server/play/map",
@@ -252,7 +252,7 @@ const sidebar = {
         }, // end 游戏内容
 
         { // start 活动
-            text: "活动",
+            text: "🎉活动",
             link: "/server/events",
             children: [
                 "/server/events/20240520",
