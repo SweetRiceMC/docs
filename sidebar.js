@@ -45,7 +45,7 @@ const sidebar = {
                 '/server/menu/pets',
 
                 { // start 传送/世界介绍
-                    text: "传送/世界介绍",
+                    text: "🌐传送/世界介绍",
                     collapsible: true,
                     link: '/server/menu/worlds',
                     children: [
@@ -60,7 +60,7 @@ const sidebar = {
                 }, // end 传送/世界介绍
 
                 { // start 商店
-                    text: "商店",
+                    text: "🏚商店",
                     collapsible: true,
                     link: '/server/menu/shop',
                     children: [
@@ -78,12 +78,12 @@ const sidebar = {
                 '/server/menu/guilds',
 
                 { // start 副本
-                    text: "副本",
+                    text: "🛡副本",
                     collapsible: true,
                     link: '/server/menu/rpg',
                     children: [
                         { // start 试炼之门
-                            text: "试炼之门",
+                            text: "👾试炼之门",
                             collapsible: true,
                             link: '/server/menu/rpg/train',
                             children: [
@@ -99,7 +99,7 @@ const sidebar = {
                         }, // end 试炼之门
 
                         { // start 活动副本
-                            text: "活动副本",
+                            text: "🎊活动副本",
                             collapsible: true,
                             link: '/server/menu/rpg/events'
                         }, // end 活动副本
@@ -111,7 +111,7 @@ const sidebar = {
                 '/server/menu/spawn',
 
                 { // start 日常
-                    text: "日常",
+                    text: "🖼日常",
                     collapsible: true,
                     link: '/server/menu/daily',
                     children: [
@@ -123,7 +123,7 @@ const sidebar = {
                 }, // end 日常
 
                 { // start 常用功能
-                    text: "常用功能",
+                    text: "💻常用功能",
                     collapsible: true,
                     link: '/server/menu/func',
                     children: [
