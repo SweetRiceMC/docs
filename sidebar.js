@@ -10,7 +10,7 @@ const sidebar = {
         },
         
         { // start 了解甜米
-            text: "📌了解甜米",
+            text: "📌 了解甜米",
             collapsible: true,
             children: [
                 '/server',
@@ -21,7 +21,7 @@ const sidebar = {
         }, // end 了解甜米
 
         { // start 初入甜米
-            text: "🔆初入甜米",
+            text: "🔆 初入甜米",
             collapsible: true,
             prefix: '/server/basic/',
             children: [
@@ -39,7 +39,7 @@ const sidebar = {
         }, // end 初入甜米
 
         { // start 菜单
-            text: "🛄菜单",
+            text: "🛄 菜单",
             collapsible: true,
             prefix: '/server/menu/',
             children: [
@@ -47,7 +47,7 @@ const sidebar = {
                 'pets',
 
                 { // start 传送/世界介绍
-                    text: "🌐传送/世界介绍",
+                    text: "🌐 传送/世界介绍",
                     collapsible: true,
                     prefix: 'worlds/',
                     children: [
@@ -63,7 +63,7 @@ const sidebar = {
                 }, // end 传送/世界介绍
 
                 { // start 商店
-                    text: "🏚商店",
+                    text: "🏚 商店",
                     collapsible: true,
                     prefix: 'shop/',
                     children: [
@@ -82,16 +82,16 @@ const sidebar = {
                 'guilds',
 
                 { // start 副本
-                    text: "🛡副本",
+                    text: "🛡 副本",
                     collapsible: true,
                     prefix: 'rpg/',
                     children: [
                         '', // README.md
 
                         { // start 试炼之门
-                            text: "👾试炼之门",
+                            text: "👾 试炼之门",
                             collapsible: true,
-                            link: 'train/',
+                            prefix: 'train/',
                             children: [
                                 '', // README.md
                                 'items',
@@ -106,9 +106,9 @@ const sidebar = {
                         }, // end 试炼之门
 
                         { // start 活动副本
-                            text: "🎊活动副本",
+                            text: "🎊 活动副本",
                             collapsible: true,
-                            link: 'events/',
+                            prefix: 'events/',
                             children: [
                                 '', // README.md
                             ]
@@ -121,7 +121,7 @@ const sidebar = {
                 'spawn',
 
                 { // start 日常
-                    text: "🖼日常",
+                    text: "🖼 日常",
                     collapsible: true,
                     prefix: 'daily/',
                     children: [
@@ -134,7 +134,7 @@ const sidebar = {
                 }, // end 日常
 
                 { // start 常用功能
-                    text: "💻常用功能",
+                    text: "💻 常用功能",
                     collapsible: true,
                     prefix: 'func/',
                     children: [
@@ -147,7 +147,7 @@ const sidebar = {
         }, // end 菜单
 
         {
-            text: "📒高级附魔",
+            text: "📒 高级附魔",
             collapsible: true,
             prefix: '/server/enchantment/',
             children: [
@@ -164,21 +164,21 @@ const sidebar = {
                 "cuilian",
 
                 { // start 锻造系统
-                    text: "🕋锻造系统",
+                    text: "🕋 锻造系统",
                     collapsible: true,
                     prefix: "table/",
                     children: [
                         '', // README.md
 
                         { // start 锻造
-                            text: "🔨锻造",
+                            text: "🔨 锻造",
                             collapsible: true,
                             prefix: "forge/",
                             children: [
                                 '', // README.md
 
                                 { // start 升级材料
-                                    text: "💫升级材料",
+                                    text: "💫 升级材料",
                                     collapsible: true,
                                     prefix: "upgrade/",
                                     children: [
@@ -208,7 +208,7 @@ const sidebar = {
                                 }, // end 宝箱钥匙
 
                                 { // start 材料
-                                    text: "📦材料",
+                                    text: "📦 材料",
                                     collapsible: true,
                                     prefix: "material/",
                                     children: [
@@ -229,7 +229,7 @@ const sidebar = {
                                 }, // end 材料
 
                                 { // start 武器/工具
-                                    text: "⚔武器/工具",
+                                    text: "⚔ 武器/工具",
                                     collapsible: true,
                                     prefix: "weapon/",
                                     children: [
@@ -239,7 +239,7 @@ const sidebar = {
                                 }, // end 武器/工具
 
                                 { // start 防具
-                                    text: "🔰防具",
+                                    text: "🔰 防具",
                                     collapsible: true,
                                     prefix: "armor/",
                                     children: [
@@ -263,7 +263,7 @@ const sidebar = {
         }, // end RPG玩法介绍
         
         { // start 游戏内容
-            text: "🕹游戏内容",
+            text: "🕹 游戏内容",
             collapsible: true,
             prefix: "/server/play/",
             children: [
@@ -275,7 +275,7 @@ const sidebar = {
         }, // end 游戏内容
 
         { // start 活动
-            text: "🎉活动",
+            text: "🎉 活动",
             prefix: "/server/events/",
             children: [
                 "20240520",
