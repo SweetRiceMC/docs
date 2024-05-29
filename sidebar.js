@@ -23,111 +23,123 @@ const sidebar = {
         { // start 初入甜米
             text: "🔆初入甜米",
             collapsible: true,
+            prefix: '/server/basic/',
             children: [
-                "/server/basic/newbie",
-                "/server/basic/gift",
-                "/server/basic/premium",
-                "/server/basic/qqbind",
-                "/server/basic/title",
-                "/server/basic/coins",
-                "/server/basic/commands",
-                "/server/basic/skin",
-                "/server/basic/res",
-                "/server/basic/faq"
+                "newbie",
+                "gift",
+                "premium",
+                "qqbind",
+                "title",
+                "coins",
+                "commands",
+                "skin",
+                "res",
+                "faq",
             ]
         }, // end 初入甜米
 
         { // start 菜单
             text: "🛄菜单",
             collapsible: true,
-            link: '/server/menu',
+            prefix: '/server/menu/',
             children: [
-                '/server/menu/pets',
+                '', // README.md
+                'pets',
 
                 { // start 传送/世界介绍
                     text: "🌐传送/世界介绍",
                     collapsible: true,
-                    link: '/server/menu/worlds',
+                    prefix: 'worlds/',
                     children: [
-                        '/server/menu/worlds/resource',
-                        '/server/menu/worlds/warp',
-                        '/server/menu/worlds/living',
-                        '/server/menu/worlds/mining',
-                        '/server/menu/worlds/redstone',
-                        '/server/menu/worlds/plot',
-                        '/server/menu/worlds/crate'
+                        '', // README.md
+                        'resource',
+                        'warp',
+                        'living',
+                        'mining',
+                        'redstone',
+                        'plot',
+                        'crate',
                     ]
                 }, // end 传送/世界介绍
 
                 { // start 商店
                     text: "🏚商店",
                     collapsible: true,
-                    link: '/server/menu/shop',
+                    prefix: 'shop/',
                     children: [
-                        '/server/menu/shop/global',
-                        '/server/menu/shop/vanilla',
-                        '/server/menu/shop/furniture',
-                        '/server/menu/shop/leaf',
-                        '/server/menu/shop/vip',
-                        '/server/menu/shop/disc',
-                        '/server/menu/shop/official',
-                        '/server/menu/shop/cosmetic'
+                        '', // README.md
+                        'global',
+                        'vanilla',
+                        'furniture',
+                        'leaf',
+                        'vip',
+                        'disc',
+                        'official',
+                        'cosmetic',
                     ]
                 }, // end 商店
                 
-                '/server/menu/guilds',
+                'guilds',
 
                 { // start 副本
                     text: "🛡副本",
                     collapsible: true,
-                    link: '/server/menu/rpg',
+                    prefix: 'rpg/',
                     children: [
+                        '', // README.md
+
                         { // start 试炼之门
                             text: "👾试炼之门",
                             collapsible: true,
-                            link: '/server/menu/rpg/train',
+                            link: 'train/',
                             children: [
-                                '/server/menu/rpg/train/items',
-                                '/server/menu/rpg/train/1-1',
-                                '/server/menu/rpg/train/1-2',
-                                '/server/menu/rpg/train/1-3',
-                                '/server/menu/rpg/train/1-4',
-                                '/server/menu/rpg/train/1-5',
-                                '/server/menu/rpg/train/1-6',
-                                '/server/menu/rpg/train/2-1'
+                                '', // README.md
+                                'items',
+                                '1-1',
+                                '1-2',
+                                '1-3',
+                                '1-4',
+                                '1-5',
+                                '1-6',
+                                '2-1',
                             ]
                         }, // end 试炼之门
 
                         { // start 活动副本
                             text: "🎊活动副本",
                             collapsible: true,
-                            link: '/server/menu/rpg/events'
+                            link: 'events/',
+                            children: [
+                                '', // README.md
+                            ]
                         }, // end 活动副本
 
-                        '/server/menu/rpg/lost'
+                        'lost'
                     ]
                 }, // end 副本
 
-                '/server/menu/spawn',
+                'spawn',
 
                 { // start 日常
                     text: "🖼日常",
                     collapsible: true,
-                    link: '/server/menu/daily',
+                    prefix: 'daily/',
                     children: [
-                        '/server/menu/daily/online',
-                        '/server/menu/daily/tasks',
-                        '/server/menu/daily/sign',
-                        '/server/menu/daily/achievements'
+                        '', // README.md
+                        'online',
+                        'tasks',
+                        'sign',
+                        'achievements'
                     ]
                 }, // end 日常
 
                 { // start 常用功能
                     text: "💻常用功能",
                     collapsible: true,
-                    link: '/server/menu/func',
+                    prefix: 'func/',
                     children: [
-                        '/server/menu/func/settings'
+                        '', // README.md
+                        'settings'
                     ]
                 }, // end 常用功能
 
@@ -137,103 +149,113 @@ const sidebar = {
         {
             text: "📒高级附魔",
             collapsible: true,
+            prefix: '/server/enchantment/',
             children: [
-                "/server/enchantment/baptism",
+                "baptism",
             ]
         },
 
         { // start RPG玩法介绍
             text: "🗡RPG玩法介绍",
             collapsible: true,
+            prefix: '/server/rpg/',
             children: [
-                "/server/rpg/cuilian",
+                '', // README.md
+                "cuilian",
 
                 { // start 锻造系统
                     text: "🕋锻造系统",
                     collapsible: true,
-                    link: "/server/rpg/table",
+                    prefix: "table/",
                     children: [
+                        '', // README.md
 
                         { // start 锻造
                             text: "🔨锻造",
                             collapsible: true,
-                            link: "/server/rpg/table/forge",
+                            prefix: "forge/",
                             children: [
+                                '', // README.md
 
                                 { // start 升级材料
                                     text: "💫升级材料",
                                     collapsible: true,
-                                    link: "/server/rpg/table/forge/upgrade",
+                                    prefix: "upgrade/",
                                     children: [
-                                        "/server/rpg/table/forge/upgrade/初级升级石",
-                                        "/server/rpg/table/forge/upgrade/中级升级石",
-                                        "/server/rpg/table/forge/upgrade/高级升级石",
-                                        "/server/rpg/table/forge/upgrade/史诗升级石",
-                                        "/server/rpg/table/forge/upgrade/强化精铁锭",
-                                        "/server/rpg/table/forge/upgrade/强化幻影锭",
-                                        "/server/rpg/table/forge/upgrade/强化辉光石",
-                                        "/server/rpg/table/forge/upgrade/强化暗夜水晶"
+                                        '', // README.md
+                                        "初级升级石",
+                                        "中级升级石",
+                                        "高级升级石",
+                                        "史诗升级石",
+                                        "强化精铁锭",
+                                        "强化幻影锭",
+                                        "强化辉光石",
+                                        "强化暗夜水晶"
                                     ]
                                 }, // end 升级材料
 
                                 { // start 宝箱钥匙
                                     text: "🗝宝箱钥匙",
                                     collapsible: true,
-                                    link: "/server/rpg/table/forge/keys",
+                                    prefix: "keys/",
                                     children: [
-                                        "/server/rpg/table/forge/keys/深层探索钥匙",
-                                        "/server/rpg/table/forge/keys/无限钥匙",
-                                        "/server/rpg/table/forge/keys/幻兽契约",
-                                        "/server/rpg/table/forge/keys/爱神钥匙"
+                                        '', // README.md
+                                        "深层探索钥匙",
+                                        "无限钥匙",
+                                        "幻兽契约",
+                                        "爱神钥匙"
                                     ]
                                 }, // end 宝箱钥匙
 
                                 { // start 材料
                                     text: "📦材料",
                                     collapsible: true,
-                                    link: "/server/rpg/table/forge/material",
+                                    prefix: "material/",
                                     children: [
-                                        "/server/rpg/table/forge/material/普通强化锤",
-                                        "/server/rpg/table/forge/material/锻造铁板",
-                                        "/server/rpg/table/forge/material/不凡粘液锭",
-                                        "/server/rpg/table/forge/material/黯灭神铁",
-                                        "/server/rpg/table/forge/material/火焰宝石",
-                                        "/server/rpg/table/forge/material/精铁锭",
-                                        "/server/rpg/table/forge/material/幻影锭",
-                                        "/server/rpg/table/forge/material/辉光粒",
-                                        "/server/rpg/table/forge/material/辉光石",
-                                        "/server/rpg/table/forge/material/暗夜锭",
-                                        "/server/rpg/table/forge/material/金刚锭",
-                                        "/server/rpg/table/forge/material/暗夜水晶颗粒"
+                                        '', // README.md
+                                        "普通强化锤",
+                                        "锻造铁板",
+                                        "不凡粘液锭",
+                                        "黯灭神铁",
+                                        "火焰宝石",
+                                        "精铁锭",
+                                        "幻影锭",
+                                        "辉光粒",
+                                        "辉光石",
+                                        "暗夜锭",
+                                        "金刚锭",
+                                        "暗夜水晶颗粒"
                                     ]
                                 }, // end 材料
 
                                 { // start 武器/工具
                                     text: "⚔武器/工具",
                                     collapsible: true,
-                                    link: "/server/rpg/table/forge/weapon",
+                                    prefix: "weapon/",
                                     children: [
-                                        "/server/rpg/table/forge/weapon/坠陨之弓1"
+                                        '', // README.md
+                                        "坠陨之弓1"
                                     ]
                                 }, // end 武器/工具
 
                                 { // start 防具
                                     text: "🔰防具",
                                     collapsible: true,
-                                    link: "/server/rpg/table/forge/armor",
+                                    prefix: "armor/",
                                     children: [
-                                        "/server/rpg/table/forge/armor/t0-1",
-                                        "/server/rpg/table/forge/armor/t1-1",
-                                        "/server/rpg/table/forge/armor/t2-1",
-                                        "/server/rpg/table/forge/armor/t2-2"
+                                        '', // README.md
+                                        "t0-1",
+                                        "t1-1",
+                                        "t2-1",
+                                        "t2-2"
                                     ]
                                 }, // end 防具
 
                             ]
                         }, // end 锻造
 
-                        '/server/rpg/table/recount',
-                        '/server/rpg/table/upgrade'
+                        'recount',
+                        'upgrade'
                     ]
                 } // end 锻造系统
 
@@ -243,20 +265,21 @@ const sidebar = {
         { // start 游戏内容
             text: "🕹游戏内容",
             collapsible: true,
+            prefix: "/server/play/",
             children: [
-                "/server/play/map",
-                "/server/play/farm",
-                "/server/play/brewery",
-                "/server/play/query"
+                "map",
+                "farm",
+                "brewery",
+                "query"
             ]
         }, // end 游戏内容
 
         { // start 活动
             text: "🎉活动",
-            link: "/server/events",
+            prefix: "/server/events/",
             children: [
-                "/server/events/20240520",
-                "/server/events/20240515"
+                "20240520",
+                "20240515"
             ]
         }, // end 活动
 
