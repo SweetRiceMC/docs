@@ -1,5 +1,6 @@
 import { viteBundler } from "@vuepress/bundler-vite";
 import { defineUserConfig } from "vuepress";
+import { removeHtmlExtensionPlugin } from 'vuepress-plugin-remove-html-extension';
 import sidebar from "./sidebar.js";
 import { resolve } from "path";
 import { hopeTheme } from "vuepress-theme-hope";
@@ -68,6 +69,7 @@ export default defineUserConfig({
         darkmode: "toggle"
     }),
     plugins: [
+        removeHtmlExtensionPlugin()
     ],
     bundler: viteBundler({
         viteOptions: {

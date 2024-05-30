@@ -2,20 +2,20 @@ const sidebar = {
     "/": [
         {
             text: "玩家协议/服务器规则",
-            link: '/rules'
+            link: "/rules"
         },
         {
             text: "封禁&处罚通告",
-            link: '/server/banned'
+            link: "/server/banned"
         },
         
         { // start 了解甜米
             text: "📌 了解甜米",
             collapsible: true,
             children: [
-                '/server',
-                '/server/history',
-                '/server/tale',
+                "/server",
+                "/server/history",
+                "/server/tale",
                 "/server/hardware"
             ]
         }, // end 了解甜米
@@ -23,7 +23,7 @@ const sidebar = {
         { // start 初入甜米
             text: "🔆 初入甜米",
             collapsible: true,
-            prefix: '/server/basic/',
+            prefix: "/server/basic/",
             children: [
                 "newbie",
                 "gift",
@@ -41,105 +41,105 @@ const sidebar = {
         { // start 菜单
             text: "🛄 菜单",
             collapsible: true,
-            prefix: '/server/menu/',
+            prefix: "/server/menu/",
             children: [
-                '', // README.md
-                'pets',
+                "", // README.md
+                "pets",
 
                 { // start 传送/世界介绍
                     text: "🌐 传送/世界介绍",
                     collapsible: true,
-                    prefix: 'worlds/',
+                    prefix: "worlds/",
                     children: [
-                        '', // README.md
-                        'resource',
-                        'warp',
-                        'living',
-                        'mining',
-                        'redstone',
-                        'plot',
-                        'crate',
+                        "", // README.md
+                        "resource",
+                        "warp",
+                        "living",
+                        "mining",
+                        "redstone",
+                        "plot",
+                        "crate",
                     ]
                 }, // end 传送/世界介绍
 
                 { // start 商店
                     text: "🏚 商店",
                     collapsible: true,
-                    prefix: 'shop/',
+                    prefix: "shop/",
                     children: [
-                        '', // README.md
-                        'global',
-                        'vanilla',
-                        'furniture',
-                        'leaf',
-                        'vip',
-                        'disc',
-                        'official',
-                        'cosmetic',
+                        "", // README.md
+                        "global",
+                        "vanilla",
+                        "furniture",
+                        "leaf",
+                        "vip",
+                        "disc",
+                        "official",
+                        "cosmetic",
                     ]
                 }, // end 商店
                 
-                'guilds',
+                "guilds",
 
                 { // start 副本
                     text: "🛡 副本",
                     collapsible: true,
-                    prefix: 'rpg/',
+                    prefix: "rpg/",
                     children: [
-                        '', // README.md
+                        "", // README.md
 
                         { // start 试炼之门
                             text: "👾 试炼之门",
                             collapsible: true,
-                            prefix: 'train/',
+                            prefix: "train/",
                             children: [
-                                '', // README.md
-                                'items',
-                                '1-1',
-                                '1-2',
-                                '1-3',
-                                '1-4',
-                                '1-5',
-                                '1-6',
-                                '2-1',
+                                "", // README.md
+                                "items",
+                                "1-1",
+                                "1-2",
+                                "1-3",
+                                "1-4",
+                                "1-5",
+                                "1-6",
+                                "2-1",
                             ]
                         }, // end 试炼之门
 
                         { // start 活动副本
                             text: "🎊 活动副本",
                             collapsible: true,
-                            prefix: 'events/',
+                            prefix: "events/",
                             children: [
-                                '', // README.md
+                                "", // README.md
                             ]
                         }, // end 活动副本
 
-                        'lost'
+                        "lost"
                     ]
                 }, // end 副本
 
-                'spawn',
+                "spawn",
 
                 { // start 日常
                     text: "🖼 日常",
                     collapsible: true,
-                    prefix: 'daily/',
+                    prefix: "daily/",
                     children: [
-                        '', // README.md
-                        'online',
-                        'tasks',
-                        'sign',
-                        'achievements'
+                        "", // README.md
+                        "online",
+                        "tasks",
+                        "sign",
+                        "achievements"
                     ]
                 }, // end 日常
 
                 { // start 常用功能
                     text: "💻 常用功能",
                     collapsible: true,
-                    prefix: 'func/',
+                    prefix: "func/",
                     children: [
-                        '', // README.md
-                        'settings'
+                        "", // README.md
+                        "settings"
                     ]
                 }, // end 常用功能
 
@@ -149,8 +149,9 @@ const sidebar = {
         {
             text: "📒 高级附魔",
             collapsible: true,
-            prefix: '/server/enchantment/',
+            prefix: "/server/enchantment/",
             children: [
+                "", //README.md
                 "baptism",
             ]
         },
@@ -158,9 +159,9 @@ const sidebar = {
         { // start RPG玩法介绍
             text: "🗡RPG玩法介绍",
             collapsible: true,
-            prefix: '/server/rpg/',
+            prefix: "/server/rpg/",
             children: [
-                '', // README.md
+                "", // README.md
                 "cuilian",
 
                 { // start 锻造系统
@@ -168,21 +169,21 @@ const sidebar = {
                     collapsible: true,
                     prefix: "table/",
                     children: [
-                        '', // README.md
+                        "", // README.md
 
                         { // start 锻造
                             text: "🔨 锻造",
                             collapsible: true,
                             prefix: "forge/",
                             children: [
-                                '', // README.md
+                                "", // README.md
 
                                 { // start 升级材料
                                     text: "💫 升级材料",
                                     collapsible: true,
                                     prefix: "upgrade/",
                                     children: [
-                                        '', // README.md
+                                        "", // README.md
                                         "初级升级石",
                                         "中级升级石",
                                         "高级升级石",
@@ -199,7 +200,7 @@ const sidebar = {
                                     collapsible: true,
                                     prefix: "keys/",
                                     children: [
-                                        '', // README.md
+                                        "", // README.md
                                         "深层探索钥匙",
                                         "无限钥匙",
                                         "幻兽契约",
@@ -212,7 +213,7 @@ const sidebar = {
                                     collapsible: true,
                                     prefix: "material/",
                                     children: [
-                                        '', // README.md
+                                        "", // README.md
                                         "普通强化锤",
                                         "锻造铁板",
                                         "不凡粘液锭",
@@ -233,7 +234,7 @@ const sidebar = {
                                     collapsible: true,
                                     prefix: "weapon/",
                                     children: [
-                                        '', // README.md
+                                        "", // README.md
                                         "坠陨之弓1"
                                     ]
                                 }, // end 武器/工具
@@ -243,7 +244,7 @@ const sidebar = {
                                     collapsible: true,
                                     prefix: "armor/",
                                     children: [
-                                        '', // README.md
+                                        "", // README.md
                                         "t0-1",
                                         "t1-1",
                                         "t2-1",
@@ -254,8 +255,8 @@ const sidebar = {
                             ]
                         }, // end 锻造
 
-                        'recount',
-                        'upgrade'
+                        "recount",
+                        "upgrade"
                     ]
                 } // end 锻造系统
 
@@ -283,10 +284,10 @@ const sidebar = {
             ]
         }, // end 活动
 
-        '/server/update_logs',
-        '/server/guide',
-        '/contributing',
-        '/markdown'
+        "/server/update_logs",
+        "/server/guide",
+        "/contributing",
+        "/markdown"
     ],
     "/dev": [
         {
