@@ -23,42 +23,32 @@ shortTitle: "(概述)"
 
 @tab 升级材料
 
-| 升级材料 |
-| --- |
-| [初级升级石](upgrade/初级升级石.md) |
-| [中级升级石](upgrade/中级升级石.md) |
-| [高级升级石](upgrade/高级升级石.md) |
-| [史诗升级石](upgrade/史诗升级石.md) |
-| [远古升级石](upgrade/远古升级石.md) |
-| [强化精铁锭](upgrade/强化精铁锭.md) |
-| [强化幻影锭](upgrade/强化幻影锭.md) |
-| [强化辉光石](upgrade/强化辉光石.md) |
-| [强化暗夜水晶](upgrade/强化暗夜水晶.md) |
+|  |  |  |
+| --- | --- | --- |
+| [初级升级石](upgrade/初级升级石.md) | [中级升级石](upgrade/中级升级石.md) | [高级升级石](upgrade/高级升级石.md) |
+| [史诗升级石](upgrade/史诗升级石.md) | [远古升级石](upgrade/远古升级石.md) | [强化精铁锭](upgrade/强化精铁锭.md) |
+| [强化幻影锭](upgrade/强化幻影锭.md) | [强化辉光石](upgrade/强化辉光石.md) | [强化暗夜水晶](upgrade/强化暗夜水晶.md) |
+
+{.soft-table .bg-none}
 
 @tab 宝箱钥匙
 
-| 宝箱钥匙 |
-| --- |
-| [深层探索钥匙](keys/深层探索钥匙.md) |
-| [无限钥匙](keys/无限钥匙.md) |
-| [幻兽契约](keys/幻兽契约.md) |
+|  |  |  |
+| --- | --- | --- |
+| [深层探索钥匙](keys/深层探索钥匙.md) | [无限钥匙](keys/无限钥匙.md) | [幻兽契约](keys/幻兽契约.md) |
+
+{.soft-table .bg-none}
 
 @tab 材料
 
-| 材料 |
-| --- |
-| [普通强化锤子](material/普通强化锤.md) |
-| [锻造铁板](material/锻造铁板.md) |
-| [不凡粘液锭](material/不凡粘液锭.md) |
-| [黯灭神铁](material/黯灭神铁.md) |
-| [火焰宝石](material/火焰宝石.md) |
-| [精铁锭](material/精铁锭.md) |
-| [幻影锭](material/幻影锭.md) |
-| [辉光粒](material/辉光粒.md) |
-| [辉光石](material/辉光石.md) |
-| [暗夜锭](material/暗夜锭.md) |
-| [金刚锭](material/金刚锭.md) |
-| [暗夜水晶颗粒](material/暗夜水晶颗粒.md) |
+|  |  |  |
+| --- | --- | --- |
+| [普通强化锤子](material/普通强化锤.md) | [锻造铁板](material/锻造铁板.md) | [不凡粘液锭](material/不凡粘液锭.md) |
+| [黯灭神铁](material/黯灭神铁.md) | [火焰宝石](material/火焰宝石.md) | [精铁锭](material/精铁锭.md) |
+| [幻影锭](material/幻影锭.md) | [辉光粒](material/辉光粒.md) | [辉光石](material/辉光石.md) |
+| [暗夜锭](material/暗夜锭.md) | [金刚锭](material/金刚锭.md) | [暗夜水晶颗粒](material/暗夜水晶颗粒.md) |
+
+{.soft-table .bg-none}
 
 :::
 
