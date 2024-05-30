@@ -13,8 +13,14 @@
 .blue {
     color: blue;
 }
+.lime {
+    color: lime;
+}
 .green {
     color: green;
+}
+.orange {
+    color: orange;
 }
 .yellow {
     color: yellow;
@@ -46,4 +52,22 @@
 @keyframes maskedAnimation {
 	0% { background-position: 0 0; }
 	100% { background-position: -100% 0; }
+}
+.soft-table {
+    display: table;
+    width: 100%;
+}
+.soft-table tr {
+    background-color: #E2FFCA;
+    th {
+        font-weight: unset;
+    }
+    th:empty, td:empty {
+        display: none;
+    }
+}
+
+.sidebar-heading:has(> span.arrow.down) {
+    color: #6400FE;
+    font-weight: bold;
 }

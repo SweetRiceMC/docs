@@ -291,6 +291,24 @@ uwu
 
 酷炫的**渐变动态**{.rainbow}文字1  
 酷炫的**渐变动态**{.rainbow1}文字2
+
+可使用的颜色：
++ 红色 red{.red}
++ 青色 cyan{.cyan}
++ 品红色 magenta{.magenta}
++ 金色 gold{.gold}
++ 蓝色 blue{.blue}
++ 绿色 green{.green}
++ 黄绿色 lime{.lime}
++ 黄色 yellow{.yellow}
++ 橘色 orange{.orange}
++ 粉色 pink{.pink}
++ 白色 white{.white}
+
+|  |
+|:----------------:|
+| 舒适的额外表格样式 |
+{.soft-table}
 ```
 
 一段下划线文字
@@ -304,6 +322,24 @@ uwu
 
 酷炫的**渐变动态**{.rainbow}文字1  
 酷炫的**渐变动态**{.rainbow1}文字2
+
+可使用的颜色：
++ 红色 red{.red}
++ 青色 cyan{.cyan}
++ 品红色 magenta{.magenta}
++ 金色 gold{.gold}
++ 蓝色 blue{.blue}
++ 绿色 green{.green}
++ 黄绿色 lime{.lime}
++ 黄色 yellow{.yellow}
++ 橘色 orange{.orange}
++ 粉色 pink{.pink}
++ 白色 white{.white}
+
+|  |
+|:----------------:|
+| 舒适的额外表格样式 |
+{.soft-table}
 
 ## 上标/下标
 
