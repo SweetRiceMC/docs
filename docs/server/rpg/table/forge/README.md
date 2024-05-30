@@ -50,6 +50,24 @@ shortTitle: "(概述)"
 
 {.soft-table .bg-none}
 
+@tab 武器/工具
+
+|  |  |  |
+| --- | --- | --- |
+| [坠陨之弓 Ⅰ](weapon/坠陨之弓1.md) |  |  |
+
+{.soft-table .bg-none}
+
+@tab 防具
+
+|  |  |  |
+| --- | --- | --- |
+| [T0 试炼系列](armor/t0-1.md) |  |  |
+| [T1 精铁系列](armor/t1-1.md) |  |  |
+| [T2 幻影系列](armor/t2-1.md) | [T2 光明系列](armor/t2-2.md) |  |
+
+{.soft-table .bg-none}
+
 :::
 
 ## 具体界面介绍
