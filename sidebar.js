@@ -285,10 +285,8 @@ const sidebar = {
 
         '/server/update_logs',
         '/server/guide',
-        {
-            text: "贡献文档",
-            link: '/contributing'
-        }
+        '/contributing',
+        '/markdown'
     ],
     "/dev": [
         {

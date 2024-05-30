@@ -24,6 +24,7 @@ title: 贡献文档
 
 # 可能有用的资料
 
++ [本站 Markdown 方言汇总](/markdown)
 + [超简单的详细教程：如何为一个GitHub开源项目做出贡献！](https://blog.csdn.net/lythinking/article/details/135432786)
 + [Markdown 语法教程](https://www.runoob.com/markdown/md-tutorial.html)
 + [VuePress Markdown 扩展语法](https://www.vuepress.cn/guide/markdown.html)
