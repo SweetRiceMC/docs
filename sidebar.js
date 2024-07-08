@@ -271,7 +271,9 @@ const sidebar = {
                 "map",
                 "farm",
                 "brewery",
-                "query"
+                "query",
+                "shop",
+                "lock"
             ]
         }, // end 游戏内容
 
